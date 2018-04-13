@@ -1,0 +1,13 @@
+{
+    "name": "Quick primer blast",
+    "version": "0.1",
+    "description": "Highlight a FASTA sequence and quickly blast for primers",
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"],
+    "background": {
+        "scripts": ["main.js"]},
+    "options_page": "options.html"
+}
