@@ -1,5 +1,5 @@
 {
-    "name": "Quick primer blast",
+    "name": "Quick Primer-BLAST",
     "version": "0.1",
     "description": "Highlight a FASTA sequence and quickly blast for primers",
     "manifest_version": 2,
@@ -9,5 +9,11 @@
         "storage"],
     "background": {
         "scripts": ["main.js"]},
-    "options_page": "options.html"
+    "options_page": "options.html",
+	"browser_action": {
+    	"default_icon": "48.png"
+  		},
+    "icons": { "16": "16.png",
+           	   "48": "48.png",
+               "128": "128.png" }
 }
