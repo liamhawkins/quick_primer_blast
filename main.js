@@ -1,5 +1,5 @@
 isDNA = function(sequence){
-    if (sequence.match('[^ACGTacgt]' || sequence.length < 7)) {
+    if (sequence.match('[^ACGTacgt]') || sequence.length < 7) {
         return false;
     } else {
         return true;
@@ -9,7 +9,6 @@ isDNA = function(sequence){
 blastPrimers = function(word){
         chrome.storage.sync.get('blast_settings', function(result) {
             var settings = result['blast_settings'].split("?LINK_LOC=bookmark&")[1];
-            alert(settings);
             var query = word.selectionText
             var split_query = query.split(/[\s\n\t\r]+/)
             var identifier = [];
