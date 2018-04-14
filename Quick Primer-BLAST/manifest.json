@@ -11,9 +11,9 @@
         "scripts": ["main.js"]},
     "options_page": "options.html",
 	"browser_action": {
-    	"default_icon": "48.png"
+    	"default_icon": "icons/48.png"
   		},
-    "icons": { "16": "16.png",
-           	   "48": "48.png",
-               "128": "128.png" }
+    "icons": { "16": "icons/16.png",
+           	   "48": "icons/48.png",
+               "128": "icons/128.png" }
 }
