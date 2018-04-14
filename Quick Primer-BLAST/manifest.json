@@ -1,7 +1,7 @@
 {
     "name": "Quick Primer-BLAST",
     "version": "0.1",
-    "description": "Highlight a FASTA sequence and quickly blast for primers",
+    "description": "Highlight a FASTA sequence and quickly BLAST for primers",
     "manifest_version": 2,
     "permissions": [
         "contextMenus",
