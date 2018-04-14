@@ -7,8 +7,42 @@
         <form>
 			<p>Enter your <a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/">NCBI Primer-BLAST</a> "Save search parameters" URL here:</p>
             <input type="text" name="blast_settings" id="blast_settings">
-            <button id="button">Save</button>
+            <button id="save-button">Save</button>
+            <button id="restore-button">Restore Default</button>
         </form>
+		<hr>
+		<div id='container'>
+			<h1>Set custom Primer-BLAST settings</h1>
+			<h2>Step 1: Go to <a href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/">NCBI Primer-BLAST</a> and enter your custom settings:</h2>
+			<img src="tutorial/1.png">
+			<h2>Step 2: Click "Save search parameters:</h2>
+			<img src="tutorial/2.png">
+			<h2>Step 3: Click "OK" on the popup</h2>
+			<img src="tutorial/3.png">
+			<h2>Step 4: In the new tab that opens, copy the URL<h2>
+			<img src="tutorial/4.png">
+			<h2>Step 5: Paste that URL in the box at the top of this page and click "Save"<h2>
+			<img src="tutorial/5.png">
+			<h2>Step 6: Primer-BLAST away!</h2>
+			<img src="tutorial/6.png">
+		</div>
     </body>
     <script type="text/javascript" src="options.js"></script>
+
+	<style>
+		#container {
+			width: 650px;
+			padding: 8px;
+			float: left;
+		}
+
+		img {
+			display: inline-block;
+			float: left;
+			clear: left;
+			border: solid;
+			border-width: 2;
+			margin-bottom: 10px;
+		}
+	</style>
 </html>
