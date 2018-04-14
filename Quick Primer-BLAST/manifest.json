@@ -1,11 +1,10 @@
 {
     "name": "Quick Primer-BLAST",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Highlight a FASTA sequence and quickly BLAST for primers",
     "manifest_version": 2,
     "permissions": [
         "contextMenus",
-        "tabs",
         "storage"],
     "background": {
         "scripts": ["main.js"]},
